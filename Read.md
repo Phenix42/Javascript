@@ -33,4 +33,4 @@ a categorized list of all array methods you should know:
 🔹 .fill() – Replace all elements with a value
 🔹 .join() – Convert an array into a string
 🔹 .toString() – Convert an array into a string
-🔹 .keys(), .values(), .entries() – Get array iterators
+ .keys(), .values(), .entries() – Get array iterators
