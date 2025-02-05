@@ -40,3 +40,24 @@ array.splice()
 //array.slice(Start,end);
 console.log(array.slice(2,3));
 
+//reverse():This method reverses the order of the elememnts in an array
+console.log(array.reverse());
+
+//includes(): Returns true if an array contains a specified value
+console.log(array.includes(12));
+
+
+//fill(): this method filles specified elements in an array with the value method
+// array.fill(value,start,end);
+console.log(array.fill(12,0,3))
+
+//filter() : method create new array filled with elements that pass a test provided by function
+//array.filter(function(currentValue,index, arr))
+ console.log("filter  "+array.filter((e)=> e%3 == 0));
+
+
+ //reduce(): This method excutes reducer function for array elements and this metod returns a single value the function accumilated result
+ console.log(array.reduce((total,num) => total-num));
+
+
+ 
