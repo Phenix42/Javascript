@@ -14,7 +14,8 @@ const p = new Promise((resolve,reject)=>{
     reject("error")
 })
 
-p.then((m)=>console.log(m)).catch((m)=>console.log(m));
+p.then((m)=>console.log(m))
+.catch((m)=>console.log(m));
 
 
 
